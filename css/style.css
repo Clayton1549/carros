@@ -1,0 +1,172 @@
+html {
+  scroll-behavior: smooth;
+}
+* {
+  margin: 0;
+  padding: 9;
+  overflow-x: hidden;
+
+ 
+}
+body {
+   background-color:black;
+   color: white; 
+}
+.navbar nav {
+    display:flex;
+    align-items: center;
+    width: 100%;
+    gap:30px;
+    margin-left: 30px;
+   
+  }
+
+  #nav1 {
+     display: flex;
+     list-style-type: none;
+     gap:30px;
+     margin:0;
+     padding: 0;
+  }
+
+#nav1 li a{
+    text-decoration: none;
+    color:white;
+}
+
+.figureImg {
+ width: 100%;
+ height: 95vh;
+}
+
+.figurecar {
+  width: 100%;
+  height: 600px;
+}
+#carrossel1,#carrossel2,#carrossel3 {
+  display: none;
+}
+.carrosSection {
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  color: black;
+  
+}
+.carrosSection h1 {
+  margin-left: 3%;
+  margin-top:10px;
+}
+.carrosSection p {
+  margin-left: 3%;;
+}
+.carrosSection1 {
+  width: 100%;
+  height: 100%;
+  background-color: #060606;
+}
+.carrosSection1 h1  {
+  margin-left: 56%;
+  margin-top: 10px;
+}
+.carrosSection1 p {
+  margin-left: 56%;;
+}
+.carrosSection a{
+  margin-left: 3%;
+  color: green;
+}
+.carrosSection a:hover {
+  color: blue;
+}
+.carrosSection1 a{
+  margin-left: 56%;
+  color: green;
+}
+.carrosSection1 a:hover {
+  color: blue;
+}
+figure {
+  position:relative;
+  margin:0;
+}
+.figureImg {
+  width: 100%;
+  display:block;
+}
+figcaption {
+  position:absolute;
+  top:30px;
+  left:20px;
+  color:#fff;
+  font-size: 30px;
+
+}
+.footer {
+  margin-left: 3%;
+  margin-top: 20px;
+  padding: 3px;
+}
+
+
+#voltar_topo {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  display: block;
+  text-decoration: none;
+  color:green;
+  visibility: hidden;
+  pointer-events: none;
+  transition: opacity 0.3s ease, visibility 0.3s ease;
+}
+
+#voltar_topo.mostrar{
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+}
+
+/* paginas html */
+.renaulttitle {
+  border: 3px solid #fff;
+  height: 85vh;
+
+}
+.renaulttitle h1 {
+ margin-top: 30px;
+ margin-left: 30px;
+}
+.imgDescricao {
+  margin-top: 30px;
+  margin-left: 30px;
+  width: auto;
+  height: 300px;
+  
+}
+
+.textoDescricao {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+
+.descricao {
+    display: flex;
+    flex-direction: column;
+}
+
+.descricao h2 {
+    margin: 0 0 10px 0;
+}
+
+.descricao p {
+    margin: 6px;
+}
+.textodes1{
+  margin-left: 30px;
+}
+.textodes1 p {
+ margin-top: 10px;
+}
